@@ -1,2 +1,7 @@
-# edtech-ai-backend
-A .NET Core Web API for semantic search over educational content using OpenAI embeddings and Qdrant. Supports multilingual input (English + Hindi) and retrieves meaning-based results via vector similarity. Built with clean architecture, async/await best practices, and configurable API keys.
+
+Component	                          Purpose
+.NET Core Web API                  	Backend framework for building scalable RESTful services
+OpenAI Embeddings API              	Converts text into high-dimensional vectors for semantic comparison
+Qdrant Vector DB	                  Stores and searches embeddings using cosine similarity
+Postman	                            Used to test and validate API endpoints
+Docker Desktop	                    Intended to run Qdrant locally in a containerized environment
